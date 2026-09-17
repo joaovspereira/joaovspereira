@@ -50,9 +50,28 @@ I am interested in problems where understanding the customer and the operation m
 
 These are educational case studies. Steel, NLP and forecasting metrics come from saved original executions; the oil simulation was corrected and rerun in September 2026. Simulation results are not realized revenue. Each repository documents its evaluation scope and limitations.
 
+## More case studies
+
+| Project | Focus | Evidence |
+|---|---|---|
+| [Bank Customer Churn Prediction](https://github.com/joaovspereira/bank-customer-churn-prediction) | Customer analytics, Random Forest and class imbalance | Saved test F1 **0.6141**, ROC-AUC **0.8575** |
+| [Chicago Taxi SQL Analysis](https://github.com/joaovspereira/chicago-taxi-sql-analysis) | SQL joins, aggregations and hypothesis testing | **Six original SQL queries**; observed trip duration **21.38% longer** in bad weather |
+| [Video Game Market Analysis](https://github.com/joaovspereira/video-game-market-analysis) | Regional segmentation and statistical analysis | Historical **2012–2016** market study and Welch tests |
+
+## Applied implementations
+
+These public revisions extend earlier projects with corrected methods and executable checks. Instacart, telecom and insurance include **synthetic examples**; empirical results from the corrected code still require the original datasets. The vehicle app runs locally with a synthetic demo or an uploaded CSV.
+
+| Project | What you can inspect or run | Verification |
+|---|---|---|
+| [Instacart Customer Behavior](https://github.com/joaovspereira/instacart-customer-behavior-analysis) | Reorder rates, basket composition and validated joins | 4 tests; synthetic notebook example |
+| [Telecom Plan Revenue](https://github.com/joaovspereira/telecom-plan-revenue-analysis) | Corrected billing rules and customer-level comparison | 5 tests; synthetic invoice example |
+| [Insurance ML & Linear Algebra](https://github.com/joaovspereira/insurance-ml-data-obfuscation) | Train-only model pipelines and reversible OLS transformation | 4 tests; numerical invariance proof |
+| [Vehicle Listings Explorer](https://github.com/joaovspereira/vehicle-listings-explorer) | Streamlit/Plotly app with filters, charts and CSV upload | 5 tests, including app startup and interaction |
+
 ## Technical toolkit
 
-![Technical toolkit: Python, pandas, NumPy, scikit-learn, LightGBM, NLP, time series, Git and GitHub](assets/toolkit.svg)
+![Technical toolkit: Python, SQL, pandas, NumPy, scikit-learn, LightGBM, NLP, time series, Streamlit, Plotly, SciPy, Git and GitHub](assets/toolkit.svg)
 
 | Area | Tools and methods | Public evidence |
 |---|---|---|
@@ -60,6 +79,9 @@ These are educational case studies. Steel, NLP and forecasting metrics come from
 | Predictive modeling | scikit-learn, LightGBM, regression, classification, cross-validation | [Regression](https://github.com/joaovspereira/steel-temperature-prediction) · [Classification](https://github.com/joaovspereira/imdb-sentiment-classification) |
 | Language and forecasting | NLTK, spaCy, TF-IDF, statsmodels, lags and rolling features | [NLP](https://github.com/joaovspereira/imdb-sentiment-classification) · [Time series](https://github.com/joaovspereira/hourly-taxi-demand-forecasting) |
 | Decision support | Bootstrap simulation, evaluation metrics and risk thresholds | [Profit and risk](https://github.com/joaovspereira/oil-well-profit-risk-analysis) |
+| SQL and statistics | PostgreSQL queries, joins, CASE, aggregations and Welch t-tests | [Taxi SQL](https://github.com/joaovspereira/chicago-taxi-sql-analysis) · [Game market](https://github.com/joaovspereira/video-game-market-analysis) |
+| Interactive applications | Streamlit, Plotly, CSV validation and interactive filtering | [Vehicle explorer](https://github.com/joaovspereira/vehicle-listings-explorer) |
+| Linear algebra and validation | Least squares, invertible transforms, pipelines and unit tests | [Insurance methods](https://github.com/joaovspereira/insurance-ml-data-obfuscation) |
 | Analysis and delivery | Matplotlib, Seaborn, Jupyter and Git/GitHub | Notebooks and documentation in each case |
 
 ## What I bring to a data team
@@ -71,7 +93,7 @@ These are educational case studies. Steel, NLP and forecasting metrics come from
 
 ## Explore the work
 
-For each project, start with the README, open the notebook for code and saved outputs, and consult `data/README.md` for reproduction requirements. English and Portuguese project guides are available.
+Start with each README, then inspect the notebook or application and its validation record. The documentation distinguishes saved original results, corrected reruns and synthetic verification. Consult `data/README.md` for reproduction requirements. English and Portuguese guides are available.
 
 I welcome conversations about **Data Science, Machine Learning, Customer Analytics, Product Analytics and Business Analytics**.
 

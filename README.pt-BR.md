@@ -26,9 +26,28 @@ Tenho interesse em desafios nos quais compreender o cliente e a operação é t�
 
 São estudos de caso educacionais. As métricas de aço, NLP e séries temporais foram preservadas das execuções originais. A simulação de petróleo foi corrigida e reexecutada em setembro de 2026; os resultados não são receita realizada. Cada repositório explica as condições de avaliação e suas limitações.
 
+## Outros estudos de caso
+
+| Projeto | Foco | Evidência |
+|---|---|---|
+| [Bank Customer Churn Prediction](https://github.com/joaovspereira/bank-customer-churn-prediction) | Retenção, Random Forest e desequilíbrio de classes | F1 de teste **0,6141**, ROC-AUC **0,8575** |
+| [Chicago Taxi SQL Analysis](https://github.com/joaovspereira/chicago-taxi-sql-analysis) | Consultas SQL e teste de hipóteses | **Seis consultas originais**; duração observada **21,38% maior** com clima ruim |
+| [Video Game Market Analysis](https://github.com/joaovspereira/video-game-market-analysis) | Segmentação regional e estatística | Estudo histórico de **2012–2016** e testes de Welch |
+
+## Implementações aplicadas
+
+Estas revisões ampliam projetos anteriores com métodos corrigidos e verificações executáveis. Instacart, telecom e seguros incluem **exemplos sintéticos**; os resultados empíricos do código corrigido ainda dependem dos datasets originais. O aplicativo de veículos funciona localmente com demonstração sintética ou upload de CSV.
+
+| Projeto | O que pode ser inspecionado ou executado | Validação |
+|---|---|---|
+| [Instacart Customer Behavior](https://github.com/joaovspereira/instacart-customer-behavior-analysis) | Taxas de recompra, cestas e junções validadas | 4 testes e exemplo sintético no notebook |
+| [Telecom Plan Revenue](https://github.com/joaovspereira/telecom-plan-revenue-analysis) | Regras de faturamento e comparação por cliente | 5 testes e faturas sintéticas |
+| [Insurance ML & Linear Algebra](https://github.com/joaovspereira/insurance-ml-data-obfuscation) | Pipelines de ML e transformação reversível de atributos | 4 testes e prova numérica de invariância |
+| [Vehicle Listings Explorer](https://github.com/joaovspereira/vehicle-listings-explorer) | Aplicativo Streamlit/Plotly com filtros, gráficos e upload | 5 testes, incluindo abertura e interação |
+
 ## Ferramentas e métodos
 
-![Python, pandas, NumPy, scikit-learn, LightGBM, NLP, séries temporais, Git e GitHub](assets/toolkit.svg)
+![Python, SQL, pandas, NumPy, scikit-learn, LightGBM, NLP, séries temporais, Streamlit, Plotly, SciPy, Git e GitHub](assets/toolkit.svg)
 
 | Frente | Competências | Evidência pública |
 |---|---|---|
@@ -36,6 +55,9 @@ São estudos de caso educacionais. As métricas de aço, NLP e séries temporais
 | Modelagem preditiva | scikit-learn, LightGBM, regressão, classificação e validação cruzada | [Regressão](https://github.com/joaovspereira/steel-temperature-prediction) · [Classificação](https://github.com/joaovspereira/imdb-sentiment-classification) |
 | Texto e previsão temporal | NLTK, spaCy, TF-IDF, statsmodels, defasagens e médias móveis | [NLP](https://github.com/joaovspereira/imdb-sentiment-classification) · [Séries temporais](https://github.com/joaovspereira/hourly-taxi-demand-forecasting) |
 | Apoio à decisão | Bootstrap, métricas de avaliação e limites de risco | [Lucro e risco](https://github.com/joaovspereira/oil-well-profit-risk-analysis) |
+| SQL e estatística | PostgreSQL, joins, CASE, agregações e testes de Welch | [Táxis e SQL](https://github.com/joaovspereira/chicago-taxi-sql-analysis) · [Videogames](https://github.com/joaovspereira/video-game-market-analysis) |
+| Aplicações interativas | Streamlit, Plotly, validação de CSV e filtros | [Explorador de veículos](https://github.com/joaovspereira/vehicle-listings-explorer) |
+| Álgebra linear e validação | Mínimos quadrados, transformações invertíveis, pipelines e testes | [Métodos em seguros](https://github.com/joaovspereira/insurance-ml-data-obfuscation) |
 | Análise e documentação | Matplotlib, Seaborn, Jupyter e Git/GitHub | Notebooks e documentação de cada case |
 
 ## Minha contribuição para uma equipe de dados
@@ -47,7 +69,7 @@ São estudos de caso educacionais. As métricas de aço, NLP e séries temporais
 
 ## Como explorar o portfólio
 
-Comece pelo README de cada projeto, consulte o notebook para código e resultados salvos e abra `data/README.md` para os requisitos de reprodução. Os guias dos projetos estão disponíveis em português e inglês.
+Comece pelo README, consulte o notebook ou aplicativo e leia o registro de validação. A documentação diferencia resultados originais preservados, reexecuções corrigidas e verificações sintéticas. Abra `data/README.md` para os requisitos de reprodução. Há guias em português e inglês.
 
 Tenho interesse em oportunidades e conversas sobre **Data Science, Machine Learning, Customer Analytics, Product Analytics e Business Analytics**.
 
